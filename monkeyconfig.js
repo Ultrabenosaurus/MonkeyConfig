@@ -770,6 +770,12 @@ div.__MonkeyConfig_container {\
     display: table !important;\
     font-family: sans-serif !important;\
     padding: 0.3em !important;\
+    min-width: 400px;\
+}\
+@media only screen and (max-width: 900px) {\
+	div.__MonkeyConfig_container {\
+		width: calc(100vw - 90px);\
+	}\
 }\
 \
 body.__MonkeyConfig_window div.__MonkeyConfig_container {\
@@ -790,6 +796,7 @@ div.__MonkeyConfig_container h1 {\
 div.__MonkeyConfig_container table {\
     border-spacing: 0 !important;\
     margin: 0 !important;\
+    width: 100%;\
 }\
 \
 div.__MonkeyConfig_container table td {\
