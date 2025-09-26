@@ -513,6 +513,8 @@ function MonkeyConfig() {
             }, false);
 
             setTimeout(function () {
+                container = iframe.contentDocument
+                    .querySelector('.__MonkeyConfig_container');
                 iframe.width = container.clientWidth;
                 iframe.height = container.clientHeight;
                 
