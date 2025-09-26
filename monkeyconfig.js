@@ -1,7 +1,10 @@
 // ==UserScript==
-// @name           MonkeyConfig
-// @namespace      http://odyniec.net/
+// @name           UBMonkeyConfig
+// @version        0.1.3
+// @namespace      ultrabenosaurus.odyniec
 // @description    Easy configuration dialog builder for user scripts
+// @source         https://github.com/Ultrabenosaurus/MonkeyConfig
+// @source         https://github.com/odyniec/MonkeyConfig
 // @include        *
 // ==/UserScript==
 
