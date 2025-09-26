@@ -16,7 +16,7 @@ the metadata section:
 ```javascript
 // ==UserScript==
 // @name           AwesomeScript
-// @require        https://raw.github.com/odyniec/MonkeyConfig/master/monkeyconfig.js
+// @require        https://raw.github.com/Ultrabenosaurus/MonkeyConfig/master/monkeyconfig.js
 ```
 
 Then, call `MonkeyConfig()` to construct your configuration object:
